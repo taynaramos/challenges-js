@@ -17,6 +17,6 @@ myFunction(['I', 'need', 'candy'])
 
 // solution suggested
 
-function myFunction(input) {{
-        return input.reduce((a,b) => a.length <= b.length ? a : b)
+function myFunction2(input) {
+    return input.reduce((a,b) => a.length <= b.length ? a : b)
 }
