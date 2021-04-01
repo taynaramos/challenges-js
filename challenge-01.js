@@ -15,7 +15,7 @@ function myFunction(vetor) {
 
 myFunction(['I', 'need', 'candy'])
 
-// solution suggested
+// suggested solution
 
 function myFunction2(input) {
     return input.reduce((a,b) => a.length <= b.length ? a : b)
